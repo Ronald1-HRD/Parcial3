@@ -16,6 +16,7 @@ public class Prueba {
             System.out.println("El computador a buscar: " + marca + " se encuentra en la posición " + tienda.buscar(marca));
             tienda.imprimirTienda();
             tienda.imprimir();
+            System.out.println("--------------------------------------------------------------------------------------");
             // ESTUDIANTE
             Scanner he = new Scanner(System.in);
             CursoUniversitario curso = new CursoUniversitario();
